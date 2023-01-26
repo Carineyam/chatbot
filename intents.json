@@ -1,0 +1,124 @@
+{
+  "intents": [
+    {
+      "tag": "blank",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you!",
+        "Please give me more info!",
+        "Not sure I understand!",
+        "Could you please be more specific!",
+        "Could you please rephrase that for me!"]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hi",
+        "Hey",
+        "hello",
+        "Hi there",
+        "is anyone there?",
+        "Good evening",
+        "Good morning",
+        "What's up",
+        "sup",
+        "greetings"
+      ],
+      "responses": [
+        "Hey :)",
+        "Hello, thanks for visiting!",
+        "Good to see you here!",
+        "Hi there, how can I help?",
+        "Hello there, nice to meet you!",
+        "Hello, how can I be helpful?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","Goodbye", "See you later"],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "have a nice day!",
+        "Bye, Come back again soon!",
+        "Till next time!",
+        "Nice chatting, bye!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["What can you do?","What are your features?","What are you abilities?","i need help","help me","who are you?","What is your name?","how could you help me?", "What help do you provide?", "what do you offer?"],
+      "responses": ["Hi there, you can call me ENSABOT, I am here to assist you gathering useful information about Ensa Berrechid.", "Hello, ENSABOT here, I am your assistant to help you find answers related to Ensa Berrechid."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "nice one", "awesome", "i appreciate your help"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["tell me about you", "what is your story", "define yourself for me"],
+      "responses": ["I am ENSABOT, I was created by  YAMEOGO Henriette Carine  in January 2022, as the subject of a Machine Learning project supervised by Pr. MOUMOUN, and I am here in your service."]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "Where is the school located?",
+        "where",
+        "location",
+        "school address",
+        "I want to contact the school",
+        "contact",
+        "how can i contact you?",
+        "I'm trying to contact you",
+        "mail address",
+        "school phone number","Email",
+        "phone","Fax"
+      ],
+      "responses": ["Address: University Avenue, B.P: 218, Berrechid, Morocco.\n Phone: 05-22-32-47-58 \n Fax: 05-22-53-45-30 \n Email: ensa.berrechid@uhp.ac.ma"]
+    },
+    {
+      "tag": "ensab",
+      "patterns": ["give me a general idea about the school","give me an introduction about ensa berrechid","what is ensa berrechid?","school history","ensa berrechid", "ensab"],
+      "responses": ["National School of Applied Sciences of Berrechid (ENSA Berrechid) is a public engineering school. Belongs to the Hassan 1st University of Settat and part of the ENSA network of Morocco. ENSA Berrechid has for a mission to train engineers and specialists in scientific and technical disciplines going through 2 years of integrated preparatory education then another 3 years to get an engineering degree. \n By a ministerial decree of May 11, 2018, EST Berrechid has evolved into becoming ENSA Berrechid on the academic year 2018/2019."]
+    },
+    {
+      "tag": "api",
+      "patterns": ["api", "what is api"],
+      "responses": ["API or integrated preparatory years are a common core formation that initiates students to the next phase which is the three years of speciality engineering."]
+    },
+    {
+      "tag": "branch",
+      "patterns": ["what branches does ensab have", "branch", "branch list", "what engineering specialities does ensab have", "specialities"],
+      "responses": ["Here is the list of engineering specialities that you can find at Ensa Berrechid: \n1) Aeronautical engineering.\n2) BigData and information systems engineering.\n3) Computer Science engineering."]
+    },
+    {
+      "tag": "aero",
+      "patterns": ["Aeronautical engineering","Aeronautics","can you define Aeronautical engineering", "What is aeronautical engineering"],
+      "responses": ["Aeronautical engineering is the design, production, testing and maintenance of aircraft, aerospace vehicles and their systems. This includes conventional fixed-wing aircraft as well as helicopters, spacecraft and drones."]},
+    {
+      "tag": "bigdata",
+      "patterns": ["Big data","definition about big data","what does big data mean?", "information systems"],
+      "responses": ["Information systems are a group of networks and processes that are interconnected to enable the collection, filtering, processing, creation and transmission, and delivery of data. They involve both hardware and software and Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application softwares"]
+    },
+    {
+      "tag": "cs",
+      "patterns": ["cs", "computer science","what does computer science mean?", "what is computer science"],
+      "responses": ["Computer Science is the study of computers and computational systems. Computer scientists design and analyze algorithms to solve programs and study the performance of computer hardware and software."]
+    },
+    {
+      "tag": "director",
+      "patterns": ["director", "head of school", "who is in charge of the school?", "who is the principal of the school?"],
+      "responses":["The school director at ENSAB is Mr. ABDELMOUMEN TABYAOUI, here is his LinkedIn account: \n\nhttps://www.linkedin.com/in/tabyaoui-abdelmoumen-159284a0/"]
+    },
+    {
+      "tag": "cursus",
+      "patterns": ["what is the complete cursus", "cursus", "briefing"],
+      "responses": ["The ENSA Berrechid curriculum begins with the first two years common to all students. These two years are assured by the preparatory classes to the engineering cycle which makes the link between highschool graduation and engineering degree graduation which gives you an idea of it's importance in this cursus. Then we have the final three years of a specialized engineering formation that concludes with an end of studies project which is the fruit of a 4 to 6 months internship in the formation speciality."]
+    },
+    {
+      "tag": "details",
+      "patterns": ["modules", "what modules", "what are the modules taught in the engineering cycle?","what are the modules teached in the engineering cycle?","what are the modules teached in Aeronautical engineering?","what are the modules taught in information systems and big data engineering", "what computer science modules do you have", "what is the planning of the year", "semester", "exams", "results", "join", "access", "get in"],
+      "responses": ["You can find all the details you need about Ensa Berrechid by visiting this link: \n\nhttps://www.ensab.ac.ma/"]
+    }
+  ]
+}
